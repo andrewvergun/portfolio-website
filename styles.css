@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(236, 242, 255);
+}
+.title {
+    font-family: Roboto, Arial;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.subtitle{
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(62, 84, 172);
+}
+.bio {
+    font-family: Roboto, Arial;
+    font-size: 17px;
+}
+.skills1 {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills2 {
+    font-family: Roboto, Arial;
+    font-size: 17px;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    height: 100%
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    height: 80vh;
+    margin-top: 125px;
+}
+
+
+.profile-picture {
+    width: 250px;
+    border: 5px solid rgb(62, 84, 172);
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.resume-button {
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(62, 84, 172);
+    color: white;
+    border-radius: 15px;
+    border-color: rgb(44, 60, 121);
+    border-style: solid;
+    border-width: 3px;
+    transition: background-color 0.15s, color 0.15s;
+}
+.material-symbols-outlined {
+    margin-right: 5px;
+}
+.resume-button:hover{
+    background-color: white;
+    color: rgb(62, 84, 172);
+}
+.resume-button:active {
+    background-color: lightgray;
+}
+.portfolio-title {
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 24px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+    /* height: 85vh; */
+}
+.portfolio-card {
+    height: 260px;
+    width: 385px;
+
+    border-color: rgba(62, 84, 172, 0.244);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+
+    background-color:white;
+    transition: background-color 0.15s;
+
+    cursor: pointer;
+}
+.portfolio-card:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.portfolio-card-image{
+    background-color: lightgray;
+    height: 200px;
+    width: 365px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.portfolio-card-title {
+    font-family: Roboto, Arial;
+    font-size: 1px;
+    margin-left: 10px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.contact-title {
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 24px;
+}
+.linkedin{
+    font-family: Roboto, Arial;
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.e-mail{
+    font-family: Roboto, Arial;
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    margin-bottom: 15px;
+}
+.material-symbols-outlined-2{
+    font-size: 20px;
+}
