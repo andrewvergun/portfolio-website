@@ -90,7 +90,7 @@ body {
     /* height: 85vh; */
 }
 .portfolio-card {
-    height: 260px;
+    height: 270px;
     width: 385px;
 
     border-color: rgba(62, 84, 172, 0.244);
@@ -112,15 +112,19 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-.portfolio-card-image{
+.portfolio-card-image img{
     background-color: lightgray;
-    height: 200px;
+    height: 176px;
     width: 365px;
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+.portfolio-card a{
+    text-decoration: none;
+    color: black;
 }
 .portfolio-card-title {
     font-family: Roboto, Arial;
