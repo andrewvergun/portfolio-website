@@ -16,6 +16,7 @@ body {
 .bio {
     font-family: Roboto, Arial;
     font-size: 17px;
+    text-wrap: wrap;
 }
 .skills1 {
     font-family: Roboto, Arial;
