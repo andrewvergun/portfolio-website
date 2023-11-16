@@ -37,6 +37,9 @@ body {
     margin-right: 10px;
 }
 .header {
+    width: 550px;
+    border-radius: 100px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,8 +48,11 @@ body {
     box-shadow: 0 5px rgba(62, 84, 172, 0.244);
     
     position: fixed;
-    width: 100%;
+    text-align: center;
     top: 0;
+    left: 31%;
+
+    
     
 
 }
