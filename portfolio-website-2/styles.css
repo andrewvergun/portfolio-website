@@ -230,12 +230,15 @@ header button:hover{
 .portfolio{
   width: 100%;
   height: auto;
+  margin-bottom: 90px;
   min-height: 50vh;
   background-color: var(--secondary-color);
   color: var(--fourth-color);
   text-align: center;
   padding-top: 10px;
   border-radius: 75px;
+
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 
 }
 .portfolio h1{
