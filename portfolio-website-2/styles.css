@@ -283,7 +283,8 @@ header button:hover{
 .portfolio-description{
   text-align: left;
   margin-left: 45px;
-  margin-right: auto;
+  margin-right: 45px;
+  text-wrap: wrap;
 }
 .portfolio-description a{
   color: var(--fourth-color);
@@ -431,6 +432,8 @@ header button:hover{
   .portfolio-description{
     text-align: left;
     margin-left: 20px;
+    margin-right: 20px;
+    text-wrap: wrap;
     margin-right: auto;
   }
   .card-portfolio{
