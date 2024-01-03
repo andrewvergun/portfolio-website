@@ -48,6 +48,15 @@ header ul li{
 header ul a li{
   text-decoration: none;
   color: var(--main-color);
+  border-bottom: solid transparent 3px;
+  transition: border-bottom 0.35s;
+
+}
+header ul a li:hover{
+  border-bottom: solid var(--main-color) 3px;
+}
+header ul a li:active{
+  border-bottom: solid var(--main-color) 3px;
 }
 header button{
   margin: 10px 20px 10px 20px;
