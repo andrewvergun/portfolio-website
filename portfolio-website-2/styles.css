@@ -402,6 +402,7 @@ header button:hover{
   .card-portfolio{
     grid-template-columns: 1fr;
     text-align: center;
+    height: auto;
 
   }
   .portfolio-image img{
