@@ -372,6 +372,7 @@ header button:hover{
 
   }
   .wrapper-ed-lng{
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -380,6 +381,7 @@ header button:hover{
     
   }
   .card{
+    height: auto;
     width: 80vw;
     text-align: center;
     margin-left: auto;
