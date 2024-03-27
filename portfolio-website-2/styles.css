@@ -243,7 +243,6 @@ header button:hover{
   width: 100%;
   height: auto;
   margin-bottom: 90px;
-  min-height: 50vh;
   background-color: var(--secondary-color);
   color: var(--fourth-color);
   text-align: center;
