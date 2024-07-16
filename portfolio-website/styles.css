@@ -298,7 +298,7 @@ header button:hover{
   overflow: hidden;
   margin-right: 45px;
   margin-left: auto;
-  border-radius: 45px;
+  border-radius: 20px;
   border: solid 2px var(--secondary-color)
 }
 
