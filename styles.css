@@ -455,5 +455,99 @@ header button:hover{
   }
 
 }
+/* Tablet optimization */
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  header {
+    font-size: 18px;
+    padding: 15px;
+    height: 10vh;
+  }
+
+  header ul li {
+    margin: 12px 20px;
+  }
+
+  header button {
+    font-size: 16px;
+    height: 45px;
+    width: 130px;
+    margin: 10px 20px;
+  }
+
+  .about {
+    margin: 90px auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .description {
+    max-width: 50vw;
+    margin: 20px 10px;
+  }
+
+  .description h1 {
+    font-size: 50px;
+  }
+
+  .description h2 {
+    font-size: 24px;
+  }
+
+  .profile-pic {
+    max-width: 40vw;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .profile-pic img {
+    width: 35vw;
+    height: auto;
+    border-radius: 40px;
+  }
+
+  .wrapper-ed-lng {
+    width: 80vw;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 40vw;
+    margin: 2vh 1vw;
+  }
+
+  .tech-card {
+    width: 80vw;
+  }
+
+  .front-tech {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .portfolio-description {
+    font-size: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .card-portfolio {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .portfolio-image img {
+    width: 50vw;
+    border-radius: 30px;
+  }
+
+  .social-item svg {
+    height: 65px;
+    width: 65px;
+  }
+}
+
 
 
