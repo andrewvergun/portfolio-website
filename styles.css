@@ -444,6 +444,7 @@ header button:hover{
     grid-template-columns: 1fr;
     text-align: center;
     height: auto;
+    margin-bottom: 25px;
 
   }
   .portfolio-image img{
