@@ -414,6 +414,9 @@ header button:hover{
     margin-right: auto;
     align-self: center;
   }
+  .card h4 {
+    padding: 0 10px;
+  }
   .tech-card{
     height: auto;
     width: 80vw;
