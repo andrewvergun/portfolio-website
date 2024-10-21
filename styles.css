@@ -415,6 +415,7 @@ header button:hover{
     align-self: center;
   }
   .tech-card{
+    height: auto;
     width: 80vw;
     text-align: center;
     margin-left: auto;
@@ -429,6 +430,7 @@ header button:hover{
     height: auto;
   }
   .portfolio-description{
+    font-size: 1rem;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
